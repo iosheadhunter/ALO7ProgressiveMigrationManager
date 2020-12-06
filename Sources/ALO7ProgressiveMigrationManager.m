@@ -29,8 +29,6 @@
 //    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import "ALO7ProgressiveMigrationManager.h"
-#import "ALO7ProgressiveMigrationStepManager.h"
-
 
 @interface ALO7ProgressiveMigrationManager() <ALO7ProgressiveMigrateDelegate>
 @property (nonatomic, strong) NSArray *allDataModelPaths;
