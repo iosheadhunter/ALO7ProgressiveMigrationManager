@@ -29,8 +29,9 @@
 //    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import <Foundation/Foundation.h>
-#import "ALO7ProgressiveMigrationError.h"
-#import "NSManagedObjectModel+ALO7Util.h"
+#import <ALO7ProgressiveMigrationManager/ALO7ProgressiveMigrationError.h>
+#import <ALO7ProgressiveMigrationManager/NSManagedObjectModel+ALO7Util.h>
+#import <ALO7ProgressiveMigrationManager/ALO7ProgressiveMigrationStepManager.h>
 
 @protocol ALO7ProgressiveMigrateDelegate;
 
